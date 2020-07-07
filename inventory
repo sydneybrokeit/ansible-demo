@@ -1,0 +1,12 @@
+[app_server]
+192.168.0.3
+
+[database_server]
+192.168.0.2
+
+[proxy_server]
+192.168.0.1
+
+[private_servers:children]
+app_server
+database_server
