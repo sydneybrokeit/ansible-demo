@@ -52,3 +52,5 @@ of a repository.  The state is going to be always consistent as long as we do ou
 1. [Installing Ansible](01-installing-ansible.md)
 1. [Setting up test VMs](02-setting-up-test-vms.md)
 1. [Basics of inventory](03-basics-of-inventory.md)
+1. [YAML Syntax](04-yaml-syntax.md)
+1. [Host and Group Variables](05-host-and-group-vars.md)

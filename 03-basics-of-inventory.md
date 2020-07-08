@@ -32,7 +32,9 @@ all the hosts in the groups under it are now a part of the `private_servers` gro
 
 We have two places where we can store information about individual hosts - either within the inventory file (or files!)
 itself, or within the `host_vars` directory.  We'll get into that in the next bit 
-[using host and group variables](04-host-and-groups-vars.md)
+[using host and group variables](05-host-and-groups-vars.md)
+
+If you're not familiar with YAML syntax, [lesson 04](04-yaml-syntax.md) should help.
 
 ### Exercise
 Put your VMs into the inventory file and remove the existing ones.
