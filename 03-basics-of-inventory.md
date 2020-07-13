@@ -30,6 +30,10 @@ between the `[]` is the name of the group, and everything listed under it is a m
 `private_servers` is a group made up of other groups, which is why it's listed as `[private_servers:children]`.  Now
 all the hosts in the groups under it are now a part of the `private_servers` group.
 
+It's also useful to know that we can have multiple files in our directory - in this case, instead of specifying the
+filename of our inventory, we can specify an entire directory of inventory files.  This makes it easier to work with
+generated files and keep things separated along more logical lines.
+
 We have two places where we can store information about individual hosts - either within the inventory file (or files!)
 itself, or within the `host_vars` directory.  We'll get into that in the next bit 
 [using host and group variables](05-host-and-groups-vars.md)
@@ -40,3 +44,7 @@ If you're not familiar with YAML syntax, [lesson 04](04-yaml-syntax.md) should h
 Put your VMs into the inventory file and remove the existing ones.
 
 If you only have 1 or 2 VMs, it's fine if they overlap.
+
+
+## Notes
+* even if `app1.example.com` resolves to `192.168.0.1`, Ansible will treat them as separate hosts.
