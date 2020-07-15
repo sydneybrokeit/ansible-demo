@@ -1,0 +1,12 @@
+---
+- hosts: app_server
+  tasks:
+    - name: Ensure apt repository is up to date
+      apt:
+        update_cache: yes
+      become: yes
+
+    - name: Ensure apache is installed
+      apt:
+        name: apache
+      become: yes

@@ -49,3 +49,6 @@ There is also one special group name - `all`.  As its name suggests, we can assi
 Go ahead and create the host variables files for our three existing hosts, in line with our existing inventory file.
 Specifically, we want to tell Ansible how to log in, so we'll want to set the username for the host either at the 
 host or group level.  Hint: you'll want to set the `ansible_user` variable for the host or group.
+
+## Next steps
+The next thing we'll look at is [how to run Ansible](06-running-ansible.md)
