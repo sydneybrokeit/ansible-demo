@@ -48,6 +48,11 @@ as many times as we want, and our system will always end up in the exact same st
 configuration files with extra lines, we won't end up creating extras of files, we won't end up with multiple copies
 of a repository.  The state is going to be always consistent as long as we do our job correctly.
 
+### Immutable infrastructure
+One of the things we've been seeing a lot of lately in DevOps is immutable infrastructure.  You can think of this as
+disposable infrastructure; when we need to make a change, rather than changing an existing host, we bring up a new
+host in a clean state with the changes.  This helps combat configuration drift.
+
 ## Index
 1. [Installing Ansible](01-installing-ansible.md)
 1. [Setting up test VMs](02-setting-up-test-vms.md)
