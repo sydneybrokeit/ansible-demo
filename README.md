@@ -59,3 +59,5 @@ host in a clean state with the changes.  This helps combat configuration drift.
 1. [Basics of inventory](03-basics-of-inventory.md)
 1. [YAML Syntax](04-yaml-syntax.md)
 1. [Host and Group Variables](05-host-and-groups-vars.md)
+1. [Running Ansible](06-running-ansible.md)
+1. [Introduction to Playbooks](07-install-webserver.yml)

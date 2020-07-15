@@ -77,3 +77,7 @@ ensure that the `apached` service is both `enabled` and `started`.
 ## Note
 Ansible has many modules; if you want to do something on a host, there is likely already a module.  Check the
 [official Ansible docs for modules!](https://docs.ansible.com/ansible/latest/modules/modules_by_category.html)
+
+## What's next
+Now that we've created a basic playbook, we can go ahead and move on to 
+[conditional logic, templates, facts, and handlers]()
